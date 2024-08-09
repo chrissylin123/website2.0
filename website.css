@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main-container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #d0b8a8;
+    display: flex;
+}
+#menu{
+    height: 70px;
+    width:100%;
+    display: inline-flex;
+    background-color: #d0b8a8;
+    margin: 0px;
+    position: fixed;
+    flex-wrap: wrap;
+}
+#logo{
+    height: 70px;
+    width: 40px;
+    margin-right: 25px;
+
+}
+.buttons{
+    height: 70px;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #d0b8a8;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.glass:hover{
+    background-color: #87786e;
+}
+.glass{
+    height: 50px;
+    width: 120px;
+    align-content: center;
+    border-radius: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+
+#body{
+    height: 80vh;
+    width: 95vw;
+    margin: 15px 35px ;
+    padding: 15px;
+    background-color: #87786e;
+    position: absolute;
+    top: 70px;
+    flex-wrap: wrap;
+}
+.gallery-page{
+    height: 25px;
+    width: 50px;
+    background-color: #dec3b1;
+    text-align: center;
+}
+hr{
+    height: 1px;
+    border-color: blanchedalmond;
+}
+.content{
+    height: 140px;
+    width: 250px;
+    margin: 15px;
+    background-color: rgb(227, 220, 220);
+    display: inline-block;
+}
+.img{
+    height: 145px;
+    width: 220px;
+    padding: 7px 15px 10px;
+}
+/*not yet learned, found online, just wanna see it with effects*/
+.content:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+
